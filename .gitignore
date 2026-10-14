@@ -1,0 +1,8 @@
+.pixi/
+__pycache__/
+*.pt
+calibration.json
+.DS_Store
+# pixi environments
+.pixi/*
+!.pixi/config.toml

@@ -1,0 +1,21 @@
+[workspace]
+authors = ["my5t1c28 <samridh.kondoji@gmail.com>"]
+channels = ["https://prefix.dev/conda-forge", "https://prefix.dev/robostack-jazzy"]
+name = "kitchen-brain"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ros-jazzy-desktop = ">=0.11.0,<0.12"
+python = ">=3.12.15,<3.13"
+pybullet = ">=3.25,<4"
+numpy = ">=2.5.4,<3"
+matplotlib = ">=3.11.2,<4"
+pydantic = ">=2.14.1,<3"
+colcon-common-extensions = ">=0.3.0,<0.4"
+
+[pypi-dependencies]
+ultralytics = ">=8.4.177, <9"
+ollama = ">=0.6.3, <0.7"
