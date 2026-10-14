@@ -14,7 +14,7 @@ import time
 import pybullet as p
 import pybullet_data
 
-# ---- Robot constants for the Franka Panda model bundled with PyBullet ----
+# ---- Robot constants for the Franka Panda model bundled with PyBullet ---- 
 ARM_JOINTS = [0, 1, 2, 3, 4, 5, 6]      # the 7 rotating joints of the arm
 FINGER_JOINTS = [9, 10]                  # the two gripper fingers
 EE_LINK = 11                             # "grasp target" point between the fingers
